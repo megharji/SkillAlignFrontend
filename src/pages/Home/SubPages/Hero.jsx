@@ -1,5 +1,5 @@
 import { Box, Typography, Button, Stack } from "@mui/material";
-import heroImg from "../assets/hero.png";
+import heroImg from "../../../assets/hero.png";
 
 const Hero = () => {
   return (

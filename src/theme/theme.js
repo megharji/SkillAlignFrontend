@@ -1,17 +1,25 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#ffffff"
+  components: {
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          "& fieldset": {
+            borderColor: "#cbd5e1",
+          },
+          "&:hover fieldset": {
+            borderColor: "#94a3b8",
+          },
+          "&.Mui-focused fieldset": {
+            borderColor: "#0f4c81",
+            borderWidth: 2,
+          },
+        },
+      },
     },
-    secondary: {
-      main: "#9c27b0"
-    }
   },
-  typography: {
-    fontFamily: "Inter, Roboto, sans-serif"
-  }
 });
+
 
 export default theme;
