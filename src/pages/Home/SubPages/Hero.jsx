@@ -1,5 +1,5 @@
 import { Box, Typography, Button, Stack } from "@mui/material";
-import heroImg from "../../../assets/hero.png";
+import heroImg from "../../../images/hero.png";
 
 const Hero = () => {
   return (
@@ -35,13 +35,6 @@ const Hero = () => {
             Get Started
           </Button>
 
-          <Button
-            size="large"
-            variant="outlined"
-            sx={{ color: "white", borderColor: "white" }}
-          >
-            Learn More
-          </Button>
         </Stack>
       </Box>
     </Box>
